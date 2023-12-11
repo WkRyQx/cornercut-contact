@@ -108,12 +108,21 @@ strong, b {
     margin: 10px 0;
      font-family: 'Amatic SC', cursive;
 }
+
 .pizza1 { display: block; }
 .starter1 { display: block; } 
 .pasta1 { display: block; } 
 .tab1, .tab2, .tab3{
     width: 200px;
     height: 75px;
+}
+
+.pizza1 { display: block;
+  
+}
+.starter1 { display: block; } 
+.pasta1 { display: block; } 
+.tab1, .tab2, .tab3{
   padding: 20px 126px;
   font-size: 36px;
     background-color: black;
