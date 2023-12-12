@@ -12,6 +12,7 @@ top:0;}
     margin: 0;
     padding: 0;
     overflow: hidden;
+  
 }
 .navbar li{
   float:left;
@@ -33,6 +34,7 @@ top:0;}
     min-height: 90%;
   filter: grayscale(50%);
   padding: 180px 16px!important;
+  
 }
 .display-bottomleft {
     position: absolute;
@@ -64,6 +66,7 @@ font-size:80px;
 strong, b {
     font-weight: bold;
 }
+
 .xxlarge {
     font-size: 36px!important;
 }
@@ -109,14 +112,6 @@ strong, b {
      font-family: 'Amatic SC', cursive;
 }
 
-.pizza1 { display: block; }
-.starter1 { display: block; } 
-.pasta1 { display: block; } 
-.tab1, .tab2, .tab3{
-    width: 200px;
-    height: 75px;
-}
-
 .pizza1 { display: block;
   
 }
@@ -128,6 +123,7 @@ strong, b {
     background-color: black;
     color: white;
  font-family: 'Amatic SC', cursive;
+  
 }
 .tab1:hover{
   background-color: #f44336;
@@ -136,12 +132,10 @@ strong, b {
 .tab2:hover{
    background-color: #f44336;
     color: white;
-    align-items: center;
   }
 .tab3:hover{
   background-color: #f44336;
     color: white;
-    align-items: end;
  }
 h1{
   font-weight: 400;
@@ -181,6 +175,7 @@ h1{
   padding-top: 32px!important;
     padding-bottom: 32px!important;
   font-family: 'Amatic SC', cursive;
+  
 }
 .pasta1 hr{
     border: 0;
@@ -190,12 +185,14 @@ h1{
     height: 0;
     overflow: visible;
 }
+
 .starter1{
   color: #000!important;
     background-color: #fff!important;
   padding-top: 32px!important;
     padding-bottom: 32px!important;
   font-family: 'Amatic SC', cursive;
+  
 }
 .starter1 hr {
     border: 0;
@@ -216,12 +213,14 @@ h1{
   font-family: 'Amatic SC', cursive;
       line-height: 1.5;
   }
+
 .naslov1{
   margin-bottom: 64px;
       text-align: center!important;
   font-size: 64px!important;
   font-weight: 400;
     margin: 10px 0;
+  
 }
 .strong1{
       width: 150px;
@@ -233,14 +232,18 @@ h1{
 .col.s6 {
     width: 40%;
 }
+
   .col, .half, .third, .twothird, .threequarter, .quarter {
     float: left;
+    
 }
 .contact1{
   color: #fff!important;
     background-color: #607d8b!important;
       filter: grayscale(50%);
    font-family: 'Amatic SC', cursive;
+  
+  
 }
 .contact2{
       text-align: center!important;
@@ -249,6 +252,8 @@ h1{
     padding-bottom: 64px!important;
   
   }
+
+
 .span5{
   background-color: #000;
     color: #fff;
@@ -257,6 +262,7 @@ h1{
     padding-right: 8px;
     text-align: center;
   margin:20px;
+  
 }
 .ja{
   font-size: 36px!important;
@@ -297,8 +303,4 @@ form {
       width: 93%;
   font-family: 'Amatic SC', cursive;
   font-size: 36px!important;
-}
-a{
-  text-decoration: none;
-  color: #fff;
 }
