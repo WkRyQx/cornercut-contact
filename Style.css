@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Inline');
+*{
+margin: auto;
+}
 .top{position: fixed;
     width: 100%;
     z-index: 1;
