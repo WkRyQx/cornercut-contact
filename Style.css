@@ -307,3 +307,7 @@ form {
   font-family: 'Amatic SC', cursive;
   font-size: 36px!important;
 }
+#home{
+  height: 62.2vh;
+  background-size: cover;
+}
