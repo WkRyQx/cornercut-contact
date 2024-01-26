@@ -6,16 +6,25 @@
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="main.js">
     <link rel="icon" href="Images/Leonardo_Diffusion_XL_pizza_logo_whit_a_very_samall_cute_cow_3 (1).jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Betyár tanya</title>
 </head>
 <body>
-  <div class="top">
-    <ul class="navbar" id="mynavbar">
-        <li><a href="Index.html">Kezdőlap</a></li>
-        <li><a href="menu.html">Menü</a></li>
-        <li><a href="about.html">Rólunk</a></li>
-    </ul>
-     </div>
+  <!-- Simulate a smartphone / tablet -->
+  <div class="mobile-container" class="top" class="navbar">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="Index.html">Kezdőlap</a>
+      <div id="myLinks">
+        <a href="menu.html">Menü</a>
+        <a href="about.html">Rólunk</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
 <header class="bgimg display-container grayscale-min" id="home">
   <div class="display-bottomleft padding">
     <span class="tag xlarge">Nyitva vagyunk 10:00-22:00-ig</span>
@@ -24,6 +33,8 @@
   <span class="text-white hide-large hide-medium" ><b>Boci<br>pizza</b></span>
     <p><a href="menu.html" class="btn xxlarge padding">Menü megtekintése</a></p>
   </div>
+
 </header>
+<script src="main.js"></script>
 </body>
 </html>

@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="icon" href="Images/Leonardo_Diffusion_XL_pizza_logo_whit_a_very_samall_cute_cow_3 (1).jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Menu</title>
 </head>
 <body>
-    <div class="top">
-        <ul class="navbar" id="mynavbar">
-            <li><a href="Index.html">Kezdőlap</a></li>
-            <li><a href="menu.html">Menü</a></li>
-            <li><a href="about.html">Rólunk</a></li>
-        </ul>
-         </div>
+  <!-- Simulate a smartphone / tablet -->
+  <div class="mobile-container" class="top" class="navbar">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="Index.html">Kezdőlap</a>
+      <div id="myLinks">
+        <a href="menu.html">Menü</a>
+        <a href="about.html">Rólunk</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
          <div>
           <div class="container black padding-64 xxlarge" id="menu">
               <h1 class="center jumbo" style="margin-bottom:64px">A Menü</h1>
@@ -82,5 +91,6 @@
             <p class="text">Tomatoes and mozzarella</p>
           </div>
         </div>
+        <script src="main.js"></script>
 </body>
 </html>
